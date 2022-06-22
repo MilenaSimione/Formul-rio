@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding: 0; 
+}
+body{
+	width: 100%;
+	background: #f94c66 url(../imagens/fundo.jpg) no-repeat ;
+	background-size: cover;
+}
+
+#container{
+	width:400px; 
+	height:300px;
+	background:rgba(255,255,255,0.); 
+	background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+	border-radius:10px;/*para areendondar as bordas do container*/
+	margin:0 auto;/*com essa medida o container centraliza*/
+	margin-top:120px; /*essa é a distancia do inicio do site ate o container*/
+	text-align:center;
+}
+
+#container img{ /*aqui voce ira formatar a imagem que esta dentro do ID conatiner*/
+	width:120px;
+	height:120;
+	margin-top:-60px; /*esse tamanho de pix negativo no top vai deixar metade da imagame
+	pra fora do container ja que a imagem tem total tem 120px*/
+	margin-bottom:30px;
+	
+}
+
+input{
+	height: 40px;/*altura*/
+	width: 80%;/*largura*/
+	font-size: 18px;/*tamanho da fonte*/
+	margin-bottom: 10px;/*espassamento ente os inputs*/
+	background-color: #fff;/*cor de fundo dos inputs*/
+	padding-left: 40px;/*espassamento do texto digite seu email mais para a esquerda*/
+	border:none;/*para não ter nenhuma borda em volta do input*/
+	background-position: 10px;/*essa função vai deixar  o icone um pouco afastadoda borda*/
+	background-repeat: no-repeat;/*essa função não deixa a imagem repetir*/
+}  
+
+input.email{
+	background-image:url(../imagens/icone-usuario.png) ;
+}
+
+input.senha{
+	background-image: url(../imagens/icone-cadeado.png);
+
+}
+
+input.submit{
+
+	color: #fff;/*cor laranja*/
+	padding: 5px 20px
+	height:45px;
+	background-color: #1D5C63;
+	
+	padding: 5px 20px
+	height:45px;
+	width: 90%;
+	background:linear-gradient(to botton #faa600,#f68a00);
+	padding-right: 53px;/*espassamento do texto mais para a esquerda ou direita*/
+
+	
+}
+
+
+
+
